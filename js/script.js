@@ -1,6 +1,6 @@
-// Copyright (c) 2022 Marshall All rights reserved
+// Copyright (c) 2022 Evgeny All rights reserved
 //
-// Created by: Marshall
+// Created by: Evgeny
 // Created on: June 2022
 // This file contains the JS functions for index.html
 
@@ -25,7 +25,7 @@ window.onload = function() {
 
   // process
   const volume = 4/3 * Math.PI * Math.pow(radiusSphere, 3)
-  const dimensions = "<ul>\n<li>r = " + radiusSphere
+  const dimensions = "r = " + radiusSphere
 
   // output
   document.getElementById('dimensions').innerHTML = dimensions
